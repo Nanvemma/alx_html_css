@@ -1,0 +1,222 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 120px;
+  color: white;
+  padding-bottom: 0px;
+
+}
+
+h2 {
+  font-size: 32px;
+
+}
+
+#nav {
+  width: 100%;
+  background-image: url('/Images/Object.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 38px;
+  color: white;
+  font-size: 16px;
+}
+
+.smiles {
+  padding-right: 200px;
+}
+
+.grin {
+  padding-right: 200px;
+}
+
+.btn {
+  background-color: #C271FF;
+  color: aliceblue;
+  padding: 16px;
+  border-radius: 60px;
+  border-color: #C271FF;
+  font-size: 14px;
+  margin-bottom: 168px;
+}
+
+#subhead {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 68px;
+  color: white;
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 100px;
+  color: white;
+}
+
+#presenter {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  background-color: #C271FF;
+  color: white;
+}
+
+.quote {
+  align-content: center;
+  margin-left: 50px;
+}
+
+#pophead {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: lighter;
+}
+
+
+.tutorials {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.diagonal {
+  width: 225;
+}
+
+.tutorials p {
+  font-size: 14px;
+}
+.tutorials h4 {
+  font-size: 14px;
+}
+.min {
+  padding-left: 100px;
+
+}
+
+.stars {
+  display: flex;
+}
+
+#membership{
+  background-color: #071629;
+ padding: 20px 150px 150px 150px;
+}
+
+.memhead {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+  padding-bottom: 58px;
+  font-weight: lighter;
+}
+
+.free {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.smile {
+text-align: center;
+}
+
+#bttn{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+margin-bottom: 20px;
+margin-left: 500px;
+
+}
+
+#faq {
+
+}
+
+.fhead{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-top: 50px;
+  padding-bottom:58px;
+}
+  
+.question {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.content{
+padding: 50px;
+}
+.minhead{
+  padding-top: 50px;
+  padding-bottom: 24px;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #071629;
+  color: white;
+  padding: 50px;
+}
+
+.icons {
+  padding-left: 700px;
+  padding-top: 20px;
+}
