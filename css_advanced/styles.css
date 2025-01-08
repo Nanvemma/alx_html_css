@@ -87,7 +87,6 @@ li a {
 #subhead {
   display: flex;
   justify-content: center;
-  margin-bottom: 68px;
   color: white;
 }
 
@@ -114,10 +113,9 @@ li a {
 
 #pophead {
   font-size: 32px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 50px;
-  font-weight: lighter;
+  font-weight: ;
 }
 
 
@@ -219,4 +217,10 @@ padding: 50px;
 .icons {
   padding-left: 700px;
   padding-top: 20px;
+}
+
+em {
+  font-style: normal;
+  color: #C271FF;
+ 
 }
