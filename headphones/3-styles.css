@@ -14,10 +14,13 @@
 
 
 body {
+    max-width: 100%;
     color: var(--primary-color);
     font-size: var(--font-size-base);
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .container {
@@ -234,6 +237,7 @@ color: var(--accent-color)
     .what-we-do-paragraph{
         padding: 20px 20px;
     }
+
 }
 
 @media screen and (max-width:480px) {
@@ -308,7 +312,7 @@ color: var(--accent-color)
     .our-results-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
+      justify-items: center;
     }
 
     .our-results-p{
@@ -334,3 +338,45 @@ color: var(--accent-color)
             height: 1491px;
         }
     }
+
+   /*  Contact Us */
+
+   .contact {
+    max-width: 400px;
+    margin-top: 110px;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .contact h2{
+    margin-bottom: 56px;
+    font-size: 2rem;
+    font-weight: 400;
+   }
+
+   button {
+    margin-top: 56px;
+    margin-bottom: 130px;
+    padding: 13px 31px;
+    border-radius: 22px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    font-size: var(--secondary-font);
+    font-weight: bold;
+   }
+
+input {
+   display: block;
+    border: none;
+    border-bottom: 1px solid #979797;
+    width: 335px;
+    margin-bottom: 45px;
+}
+
+label {
+    font-size: var(--secondary-font);
+    margin-bottom: 10px;
+}
