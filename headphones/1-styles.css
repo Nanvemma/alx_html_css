@@ -9,6 +9,7 @@
     --secondary-color: #000000;
     --accent-color: #FF6565;
     --font-size-base: 16px;
+    --secondary-font: 14px;
 }
 
 
@@ -16,12 +17,13 @@ body {
     color: var(--primary-color);
     font-size: var(--font-size-base);
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20pxpx;
 }
 
 
@@ -121,7 +123,7 @@ color: var(--accent-color)
     opacity: 0.9;
 }
 
-/* mobile responsive */
+/* media query hero section */
 @media screen and (max-width:480px) {
 
     #icon{
@@ -131,7 +133,7 @@ color: var(--accent-color)
     .hero {
         background-position: center;
         height: 869px;
-       }
+    }
 
    .logo {
     position: absolute;
@@ -171,11 +173,79 @@ color: var(--accent-color)
         left: 0; 
     }
 
-   .others {
-    padding: 20px 20px;
-   }
-   
+    .others {
+        padding: 20px 20px;
+       }
+
 }
 
+
+/* what-we-do */
+.what-we-do {
+    color: var(--secondary-color); 
+    margin-top: 110px; 
+}
+
+.what-we-do h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.what-we-do-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    }
+
+.what-we-do-items {
+    margin-top: 97px;
+    margin-bottom: 110px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 58px;
+    font-size: var(--secondary-font);
+    font-weight: 400; 
+}
+
+ .container span{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.what-we-do-items img{
+    width: 90px;
+    height: 90px;
+  }
+
+  @media screen and (max-width:768px) {
+    .what-we-do-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .what-we-do-paragraph{
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .what-we-do-items {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .what-we-do-paragraph{
+            padding: 20px 20px;
+        }
+    }
+
+
+    
+      
 
 

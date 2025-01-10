@@ -132,6 +132,7 @@ color: var(--accent-color)
 
     .hero {
         background-position: center;
+        height: 869px;
     }
 
    .logo {
@@ -172,6 +173,10 @@ color: var(--accent-color)
         left: 0; 
     }
 
+    .others {
+        padding: 20px 20px;
+       }
+
 }
 
 
@@ -202,32 +207,129 @@ color: var(--accent-color)
     align-items: center;
     gap: 58px;
     font-size: var(--secondary-font);
-    font-weight: 400;
- 
+    font-weight: 400; 
 }
+
+ .container span{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
 .what-we-do-items img{
     width: 90px;
     height: 90px;
-    margin-bottom: 64px;
-}
+  }
 
 /* media queries what-we-do section */
 
-@media screen and (max-width:480px) {
-    .what-we-do-items {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
 @media screen and (max-width:768px) {
     .what-we-do-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .what-we-do-paragraph{
+        padding: 20px 20px;
+    }
 }
 
+@media screen and (max-width:480px) {
+    .what-we-do-items {
+        display: flex;
+        flex-direction: column;
+        }
 
-    
-      
+        .what-we-do-paragraph{
+            padding: 20px 20px;
+        }
+    }
 
 
+/* Our results */
+
+.our-results {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    background-image: url(images/background\ \(3\).png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .our-results-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+
+   .our-results-p h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 400;
+   }
+
+   .our-results-items{
+    display: flex;
+    margin-top: 56px;
+    align-items: center;
+    gap: 76px;
+ 
+  
+
+   }
+
+   .pent {
+    background-image: url(images/pentagone.png);
+    background-size: cover;
+    width: 180px;
+    height: 170px;
+    place-content: center;
+    text-align: center;
+   }
+
+   .pent :nth-child(2){
+    font-size: var(--secondary-font);
+   }   
+     
+   .pent :nth-child(1){
+    font-size: 2.8rem;
+    font-weight: bold;
+   }
+
+   /* media querries our results */
+
+   @media screen and (max-width:768px) {
+    .our-results-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-results-p{
+        padding: 20px 20px;
+    }
+
+    .our-results{
+        height: 876px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .our-results-items {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .our-results-p{
+            padding: 20px 20px;
+        }
+
+        .our-results{
+            height: 1491px;
+        }
+    }
