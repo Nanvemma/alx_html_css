@@ -111,15 +111,14 @@ color: var(--accent-color)
  } 
    
 /*  hero-section-button */
-.cta-btn {
+ a button {
     text-decoration: none;
-    color: var(--primary-color);
-    background-color: var(--accent-color);
+    padding: 13px 31px;
     border-radius: 22px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-  
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    
 }
 .cta-btn:hover,
 .cta-btn:active{
@@ -371,6 +370,7 @@ color: var(--accent-color)
 
         .our-results{
             height: 1491px;
+            
         }
     }
 
@@ -391,7 +391,7 @@ color: var(--accent-color)
     font-weight: 400;
    }
 
-   button {
+   .btn {
     margin-top: 56px;
     margin-bottom: 130px;
     padding: 13px 31px;
@@ -496,7 +496,7 @@ footer p {
             }
          
             }
-      
+     
         
 
     
